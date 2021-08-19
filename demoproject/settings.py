@@ -25,7 +25,7 @@ MEDIA_URL = '/media/'
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '6!8rgh&c9b)#$9fesjczvh5rwoe(!x2k7z!en!xxv22po8(ec2'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -139,7 +139,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'animalssupsystem@gmail.com'
-EMAIL_HOST_PASSWORD ='animal@123'
+EMAIL_HOST_PASSWORD =''
 
 SENDSMS_BACKEND = 'myapp.mysmsbackend.SmsBackend'
 STRIPE_SECRET_KEY = 'sk_test_51Is58uSEtOES0fnRubY4u4KckqlvVTLBkqRq0jooaR8scO6Gl3lAIs4w5sbrf9J7L41L4jBguOYhJQP5zI4HUN4m00tqhOyyYD'
